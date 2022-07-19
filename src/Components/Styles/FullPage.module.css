@@ -1,0 +1,561 @@
+.pages1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #303841;
+    color: #F6C90E;
+}
+.div1 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.div1 h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23vw;
+}
+.pages1 h5{
+    width: 13ch;
+    font-family: monospace;
+    font-size: 25px;
+    color: #3A4750;
+    white-space: nowrap;
+    border-right: 4px solid;
+    animation: typing 3s steps(13),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing{
+    from {width: 0}
+}
+@keyframes blink{
+    50% {border-color: transparent}
+}
+.div2 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.div2 h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23vw;
+}
+.div3{
+    height: 100%;
+    width: 12%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.div3 p{
+    color: #EEEEEE;
+    font-family: "Helvetica";
+    font-weight: 550;
+    font-size: 1.4vw;
+}
+.pages2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    background-color: #EEEEEE
+}
+.div4 {
+    width: 50%;
+    line-height: 0;
+}
+.div4 h1{
+    color: #303841;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18vw;
+    transition: .4s;
+}
+.skills2:hover{
+    color: #3A4750
+}
+.div5 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div6{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    height: 80%;
+}
+.skillName {
+    font-family: 'Helvetica';
+    font-size: 1.5vw;
+    font-weight: 550;
+}
+.skillBar {
+    height: 20px;
+    background-color: #3A4750;
+    width: 40vw;
+}
+.skillsPer{
+    height: 100%;
+    background-color: #F6C90E;
+    position: relative;
+    animation: fillBars 2.5s 1;
+}
+@keyframes fillBars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+.pages3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    background-color: #F6C90E;
+}
+.div7{
+    width: 60%;
+    line-height: 0px;
+}
+.div7 h1{
+    color: #303841;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18vw;
+    transition: .4s;
+}
+.projects:hover{
+    color: #EEEEEE
+}
+.div8{
+    width: 40%;
+    margin-left: 3%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+}
+.line2{
+    text-align: center;
+    font-size: 6vw;
+    font-family: 'Bebas Neue', cursive;
+    color: #3A4750;
+    animation: color 6s infinite;
+}
+@keyframes color{
+    0% {color: #3A4750;}
+    50% {color: #EEEEEE}
+    100% {color: #3A4750;}
+}
+.line2:hover{
+    animation: none;
+}
+.line2 a{
+    text-align: center;
+    font-size: 6vw;
+    font-family: 'Bebas Neue', cursive;
+    color: #3A4750;
+    animation: color 6s infinite;
+    text-decoration: none;
+}
+@keyframes color{
+    0% {color: #3A4750;}
+    50% {color: #EEEEEE}
+    100% {color: #3A4750;}
+}
+.line2 a:hover{
+    animation: none;
+}
+.pages4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    background-color: black;
+}
+.animatedText{
+    color: #EEEEEE;
+    height: 300px;
+    overflow: hidden;
+}
+.line{
+    text-align: center;
+    font-size: 15vw;
+    line-height: 300px;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.line:first-child{
+    animation: anim 15s infinite;
+}
+@keyframes anim{
+    0%{
+        margin-top: 0;
+    }
+    16%{
+        margin-top: -300px;
+    }
+    26%{
+        margin-top: -600px;
+    }
+    36%{
+        margin-top: -900px;
+    }
+    46%{
+        margin-top: -1200px;
+    }
+    56%{
+        margin-top: -900px;
+    }
+    66%{
+        margin-top: -600px;
+    }
+    82%{
+        margin-top: -300px;
+    }
+    100%{
+        margin-top: 0;
+    }
+    
+}
+.contact{
+    width: 60%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact a{
+    color: #EEEEEE;
+    font-family: 'Bebas Neue', cursive;
+    font-size:2.5vw;
+    letter-spacing: 0.1vw;
+    text-decoration: none;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    gap: 2.5vw;
+}
+.images{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+/* 
+@media (max-width: 2100px){
+    .pages1{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        background-color: #303841;
+        color: #F6C90E;
+    }
+    .div1 {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .div1 h1{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 500px;
+    }
+    .pages1 h5{
+        width: 13ch;
+        font-family: monospace;
+        font-size: 25px;
+        color: #3A4750;
+        white-space: nowrap;
+        border-right: 4px solid;
+        animation: typing 3s steps(13),
+        blink .5s infinite step-end alternate;
+        overflow: hidden;
+    }
+    @keyframes typing{
+        from {width: 0}
+    }
+    @keyframes blink{
+        50% {border-color: transparent}
+    }
+    .div2 {
+        width: 95%;
+        height: 40vh;
+        display: flex;
+        align-items:center;
+        justify-content: space-around;
+    }
+    .div2 h1{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 500px;
+    }
+    .div3{
+        height: 100%;
+        width: 250px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .div3 p{
+        color: #EEEEEE;
+        font-family: "Helvetica";
+        font-weight: 550;
+        font-size: 20px;
+    }
+    .pages2{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items:center;
+        background-color: #EEEEEE
+    }
+    .div4 {
+        width: 50%;
+        line-height: 0;
+    }
+    .div4 h1{
+        color: #303841;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 400px;
+        transition: .4s;
+    }
+    .skills2:hover{
+        color: #3A4750
+    }
+    .div5 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div6{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .skill{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+        height: 80%;
+    }
+    .skillName {
+        font-family: 'Helvetica';
+        font-size: 30px;
+        font-weight: 550;
+    }
+    .skillBar {
+        height: 20px;
+        background-color: #3A4750;
+        width: 800px;
+    }
+    .skillsPer{
+        height: 100%;
+        background-color: #F6C90E;
+        position: relative;
+        animation: fillBars 2.5s 1;
+    }
+    @keyframes fillBars{
+        from{
+            width: 0;
+        }
+        to{
+            width: 100%;
+        }
+    }
+    
+    .pages3{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+        background-color: #F6C90E;
+    }
+    .div7{
+        width: 60%;
+        line-height: 0px;
+    }
+    .div7 h1{
+        color: #303841;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 400px;
+        transition: .4s;
+    }
+    .projects:hover{
+        color: #EEEEEE
+    }
+    .div8{
+        width: 40%;
+        margin-left: 20px;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        line-height: 10px;
+    }
+    .div8 div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .div8 p{
+        font-family: "Helvetica";
+        font-weight: 1000;
+        color: #3A4750;
+    }
+    .div8 img{
+        width: 200px;
+        height: 120px;
+    }
+    .pages4{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+        background-color: black;
+    }
+    .animatedText{
+        color: #EEEEEE;
+        height: 300px;
+        overflow: hidden;
+    }
+    .line{
+        text-align: center;
+        font-size: 300px;
+        line-height: 300px;
+        font-family: 'Bebas Neue', cursive;
+        
+    }
+    .line:first-child{
+        animation: anim 15s infinite;
+    }
+    @keyframes anim{
+        0%{
+            margin-top: 0;
+        }
+        16%{
+            margin-top: -300px;
+        }
+        26%{
+            margin-top: -600px;
+        }
+        36%{
+            margin-top: -900px;
+        }
+        46%{
+            margin-top: -1200px;
+        }
+        56%{
+            margin-top: -900px;
+        }
+        66%{
+            margin-top: -600px;
+        }
+        82%{
+            margin-top: -300px;
+        }
+        100%{
+            margin-top: 0;
+        }
+        
+    }
+    .line2{
+        text-align: center;
+        font-size: 128px;
+        font-family: 'Bebas Neue', cursive;
+        color: #3A4750;
+        animation: color 6s infinite;
+    }
+    @keyframes color{
+        0% {color: #3A4750;}
+        50% {color: #EEEEEE}
+        100% {color: #3A4750;}
+    }
+    .line2:hover{
+        animation: none;
+    }
+    .line2 a{
+        text-align: center;
+        font-size: 128px;
+        font-family: 'Bebas Neue', cursive;
+        color: #3A4750;
+        animation: color 6s infinite;
+        text-decoration: none;
+    }
+    @keyframes color{
+        0% {color: #3A4750;}
+        50% {color: #EEEEEE}
+        100% {color: #3A4750;}
+    }
+    .line2 a:hover{
+        animation: none;
+    }
+    .contact{
+        width: 60%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact a{
+        color: #EEEEEE;
+        font-family: 'Bebas Neue', cursive;
+        font-size:50px;
+        letter-spacing: 2px;
+        text-decoration: none;
+    }
+    .redes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        gap: 50px;
+    }
+    .images{
+        width: 50px;
+        height: 50px;
+    }
+    
+} */
